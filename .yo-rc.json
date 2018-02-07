@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitHubOrganization": "makavelidev",
+    "baseName": "sample1Onboarding",
+    "packageName": "com.dev.sample.onboarding",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "oracle",
+    "prodDatabaseType": "oracle",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "enableSocialSignIn": true,
+    "useSass": true,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.14.0",
+    "packageFolder": "com/dev/sample/onboarding",
+    "jwtSecretKey": "54081970aa6eb48375b78a8e29c06d7be2136f9f",
+    "jhiPrefix": "jhi"
+  }
+}
